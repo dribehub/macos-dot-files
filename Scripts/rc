@@ -1,0 +1,13 @@
+#!/bin/sh
+
+EDITOR=nvim
+case $1 in
+    zsh)            $EDITOR $HOME/.zshrc;;
+    vim)            $EDITOR $HOME/.vimrc;;
+    nvim)           $EDITOR $HOME/.config/nvim/init.vim;;
+    lvim)           $EDITOR $HOME/.config/lvim/config.lua;;
+    neofetch|nf)    $EDITOR $HOME/.config/neofetch/config.conf;;
+    rc)             $EDITOR $HOME/Scripts/rc;;
+    '')             echo "No arguments were given!";;
+    *)              echo "Invalid argument!";;
+esac

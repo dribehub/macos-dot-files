@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+# Follow AUR upstream repo
+
+if [ -n "$(brew info $1)" ]; then
+    URL=$(brew info $1 | /usr/bin/grep 'http' -m 1)
+    [ ! "$URL" ] && brew info $1 || open -u "$URL"
+fi
