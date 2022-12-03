@@ -2,7 +2,7 @@
 
 # general
 alias sudo="sudo "
-alias c="clear"
+#alias c="clear"
 alias v="$EDITOR"
 alias sv="sudo $EDITOR"
 alias home="cd $HOME"
@@ -24,6 +24,7 @@ alias ls="lsd --icon never" # ls --color=auto
 alias list="ls -Al"
 alias grep="grep --color=always"
 alias nf="neofetch" # --backend off --col_offset 3
+alias udf="update-dot-files"
 
 # global pipe options
 alias -g  H="| head"

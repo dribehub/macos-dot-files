@@ -17,3 +17,7 @@ mkcd () { # Create a directory and navigate inside it
 rmcd () { # Delete current directory
     DIR_PATH=$(pwd) && cd -P .. && sudo rm -r "$DIR_PATH"
 }
+
+c () { # Compile and execute C code
+    clang $1 -o a && ./a && rm a
+}
