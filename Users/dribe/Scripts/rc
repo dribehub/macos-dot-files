@@ -8,6 +8,7 @@ case $1 in
     lvim)           $EDITOR $HOME/.config/lvim/config.lua;;
     neofetch|nf)    $EDITOR $HOME/.config/neofetch/config.conf;;
     rc)             $EDITOR $HOME/Scripts/rc;;
+    udf)            $EDITOR $HOME/Scripts/update-dot-files;;
     '')             echo "No arguments were given!";;
     *)              echo "Invalid argument!";;
 esac

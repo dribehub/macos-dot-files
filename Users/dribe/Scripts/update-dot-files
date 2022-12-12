@@ -4,6 +4,7 @@ alias copy="rsync -a --del"
 cd ~/Repos/macos-dot-files
 
 BASEDIR=Users/dribe # global configs
+copy /$BASEDIR/Pictures/Wallpapers/macintosh.jpg $BASEDIR/Pictures/Wallpapers/macintosh.jpg
 copy /$BASEDIR/Scripts                      $BASEDIR/
 copy /$BASEDIR/.vimrc                       $BASEDIR/
 copy /$BASEDIR/.zshrc                       $BASEDIR/
