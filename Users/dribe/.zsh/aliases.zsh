@@ -5,6 +5,9 @@ alias sudo="sudo "
 #alias c="clear"
 alias v="$EDITOR"
 alias sv="sudo $EDITOR"
+alias rmr="rm -r"
+alias srm="sudo rm"
+alias srmr="sudo rm -r"
 alias home="cd $HOME"
 alias back="cdls .."
 alias cat="bat -p --theme=ansi"
@@ -48,6 +51,7 @@ ansiweather="ansiweather -l Tirana -a false -H true -d true"
 alias weather="${ansiweather} | sed -e 's/\ -\ /\n/g'"
 alias fwwm="echo -n \"^◇^\" | xclip -selection c"
 alias pipes="pipes.sh"
+alias sherlock="python3 ~/Repos/sherlock/sherlock"
 
 # MacBook
 alias mysql=/usr/local/mysql/bin/mysql

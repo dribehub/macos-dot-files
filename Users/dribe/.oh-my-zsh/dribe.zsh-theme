@@ -16,7 +16,8 @@ function box_name {
 local ruby_env='$(ruby_prompt_info)'
 local git_info='$(git_prompt_info)'
 local virtualenv_info='$(virtualenv_prompt_info)'
-local prompt_char='$(prompt_char)'
+# local prompt_char='$(prompt_char)'
+local prompt_char='☯︎'
 
 C2="$FG[007]" # keywords
 C1="$FG[014]" # username
