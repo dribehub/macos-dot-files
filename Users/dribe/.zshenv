@@ -1,5 +1,6 @@
 # default variables
 EDITOR="/opt/homebrew/bin/nvim" # "$HOME/.local/bin/lvim"
+VISUAL="$EDITOR"
 # TERMINAL="/usr/bin/alacritty"
 # BROWSER="/usr/bin/firefox"
 # PSQL_PAGER="/usr/bin/pspg"
