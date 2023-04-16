@@ -28,6 +28,7 @@ alias list="ls -Al"
 alias grep="grep --color=always"
 alias nf="neofetch" # --backend off --col_offset 3
 alias udf="update-dot-files"
+alias ff="$BROWSER -profilemanager"
 
 # global pipe options
 alias -g  H="| head"
@@ -56,3 +57,4 @@ alias sherlock="python3 ~/Repos/sherlock/sherlock"
 # MacBook
 alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias lnr=~/Code/lnr/lnr.sh

@@ -1,9 +1,7 @@
 # default variables
-EDITOR="/opt/homebrew/bin/nvim" # "$HOME/.local/bin/lvim"
+EDITOR="/opt/homebrew/bin/nvim"
 VISUAL="$EDITOR"
-# TERMINAL="/usr/bin/alacritty"
-# BROWSER="/usr/bin/firefox"
-# PSQL_PAGER="/usr/bin/pspg"
+BROWSER="/Applications/Firefox.app/Contents/MacOS/firefox-bin"
 
 # path variables
 # JAVA_HOME="/opt/homebrew/Cellar/openjdk/18.0.2.1_1/"
