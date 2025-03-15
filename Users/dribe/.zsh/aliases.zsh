@@ -2,33 +2,39 @@
 
 # general
 alias sudo="sudo "
-#alias c="clear"
 alias v="$EDITOR"
 alias sv="sudo $EDITOR"
+alias rm="rm -I" # Request confirmation once if more than three files are being removed or if a directory is being recursively removed.
 alias rmr="rm -r"
 alias srm="sudo rm"
 alias srmr="sudo rm -r"
-alias home="cd $HOME"
+alias home="d $HOME"
 alias back="cdls .."
-alias cat="bat -p --theme=ansi"
 alias top="gotop"
 alias storage="df -h"
 alias ident="curl http://ident.me"
 
-# configs
+# config paths
 alias aliases="$EDITOR $ZSHRC/aliases.zsh"
 alias funx="$EDITOR $ZSHRC/functions.zsh"
 alias funstuff="$EDITOR $ZSHRC/cli-commands.sh"
-alias zshenv="$EDITOR $HOME/.zshenv"
+alias zshenv="$EDITOR $ZSHENV"
+alias zshrc="$EDITOR $ZSHRC"
 
 # default command options
-alias rm="rm -I"
-alias ls="lsd --icon never" # ls --color=auto
-alias list="ls -Al"
+alias cat="bat -p --theme=ansi"
+alias ls="lsd"
+alias lsd="lsd --icon never"
+alias list="lsd -Al"
 alias grep="grep --color=always"
 alias nf="neofetch" # --backend off --col_offset 3
 alias udf="update-dot-files"
-alias ff="$BROWSER -profilemanager"
+alias firefox="$BROWSER -profilemanager"
+alias ff="firefox N &"
+alias ensq="trans en:sq "
+alias sqen="trans sq:en"
+alias ende="trans en:de "
+alias deen="trans de:en "
 
 # global pipe options
 alias -g  H="| head"
@@ -39,7 +45,6 @@ alias -g Gi="| grep -i"
 alias -g  L="| less"
 alias -g  K="| lolcat"
 alias -g  C="| cowsay"
-alias -g  P="| pygmentize"
 alias -g  N=">/dev/null 2>&1"
 alias -g  Y="| xargs echo -n | xclip -selection c"
 alias -g Yn="| xclip -selection c"

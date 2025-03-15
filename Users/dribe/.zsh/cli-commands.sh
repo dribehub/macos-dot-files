@@ -18,5 +18,5 @@
     cmatrix
 # Digital Clock
     tty-clock
-# Snake Game
-    nsnake
+# Games
+    nsnake nudoku
